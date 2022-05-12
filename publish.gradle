@@ -26,7 +26,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 artifact androidSourcesJar
-                groupId = 'com.github.beasonshu.exoplayer'
+                groupId = 'com.github.beasonshu.ExoPlayerV2'
                 artifactId = releaseArtifactId
                 version releaseVersion
                 pom {
